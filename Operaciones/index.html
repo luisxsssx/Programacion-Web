@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operación de tres números</title>
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+    <h1>Operación de tres números</h1>
+    <form>
+        <input type="text" id="num1" placeholder="Ingrese el primer número">
+        <input type="text" id="num2" placeholder="Ingrese el segundo número">
+        <input type="text" id="num3" placeholder="Ingrese el tercer número">
+        <input type="button" value="suma" onclick="calculateSum()">
+        <input type="button" value="resta" onclick="calculateRest()">
+        <input type="button" value="división" onclick="calculateDiv()">
+        <input type="button" value="multiplicación" onclick="calculateMult()">
+        <button id="clearButton">Limpiar</button>
+    </form>
+    <p id="result"></p>
+    <script type="text/javascript" src="/Operaciones.js"></script>
+</body>
+</html>
